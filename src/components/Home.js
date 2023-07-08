@@ -27,7 +27,7 @@ const { data, cartItems, setCartItems } = useContext(AppContext)
                          <p className='items'>{items.title}</p>
                          <button onClick={()=>{addToCart(items)}}>Add To Cart</button>
                       </div>
-                      
+                      <div> Editing </div>
                     </div>
                 )
             })
